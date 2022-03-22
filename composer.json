@@ -1,0 +1,30 @@
+{
+    "name": "bain2018/pinduoduo",
+    "description": "拼多多API SDK【拼多多开放平台】.调整适配8.1",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "pinduoduo",
+        "duoduoke",
+        "拼多多",
+        "拼多多SDK",
+        "多多客",
+        "sdk"
+    ],
+    "authors": [
+        {
+            "name": "丁海军",
+            "email": "heyjun2012@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justmd5\\PinDuoDuo\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0||^8.0||^8.1",
+        "bain2018/foundation-sdk": "^1.0",
+        "ext-json": "*"
+    }
+}
